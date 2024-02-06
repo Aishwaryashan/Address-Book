@@ -10,6 +10,8 @@ namespace AddressBookMain
     {
         static void Main(string[] args)
         {
+            AddressBook.greet();
+            Console.ReadLine();
         }
     }
-}
+} 
